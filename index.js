@@ -10,6 +10,6 @@ if (options.nombre) {
   guardarSaludo(options.nombre);
 } else {
   console.log(
-    chalk.yellow("Introduce un nombre por favor ('node --nomre=tuNombre')")
+    chalk.yellow("Introduce un nombre por favor ('node --nombre=tuNombre')")
   );
 }
